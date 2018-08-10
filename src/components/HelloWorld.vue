@@ -43,6 +43,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" module>
 .hello {
+  h1 {
+    flex: 1 0 calc(1vw - 1px);
+    background: url('../assets/logo.png') no-repeat center;
+    transition: all .3s;
+  }
   h3 {
     margin: 40px 0 0;
   }
